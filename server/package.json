@@ -1,20 +1,25 @@
 {
-  "name": "Backend",
-  "version": "1.0.0",
-  "main": "main.ts",
-  "author": "Ayush Gupta",
-  "license": "MIT",
-  "devDependencies": {
-    "pino-pretty": "^9.1.1",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^4.9.4"
-  },
-  "dependencies": {
-    "@fastify/cookie": "^8.3.0",
-    "@fastify/cors": "^8.2.0",
-    "@fastify/jwt": "^6.5.0",
-    "fastify": "^4.10.2",
-    "fastify-zod": "^1.2.0",
-    "zod": "^3.20.2"
-  }
+    "name": "Backend",
+    "version": "1.0.0",
+    "main": "main.ts",
+    "author": "Ayush Gupta",
+    "license": "MIT",
+    "devDependencies": {
+        "pino-pretty": "^9.1.1",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^4.9.4"
+    },
+    "scripts": {
+        "dev": "tsnd --exit-child --transpile-only src/main.ts"
+    },
+    "dependencies": {
+        "@fastify/cookie": "^8.3.0",
+        "@fastify/cors": "^8.2.0",
+        "@fastify/jwt": "^6.5.0",
+        "@prisma/client": "^4.7.1",
+        "fastify": "^4.10.2",
+        "fastify-zod": "^1.2.0",
+        "prisma": "^4.7.1",
+        "zod": "^3.20.2"
+    }
 }
