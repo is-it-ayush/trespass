@@ -1,0 +1,13 @@
+# ignore directory node_modules
+server/node_modules
+client/node_modules
+
+# ignore root node_modules
+/node_modules
+
+# ignore .vscode directory
+/.vscode
+
+# ignore .env file
+.env
+.production.env
